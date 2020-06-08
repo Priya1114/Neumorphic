@@ -1,8 +1,6 @@
 # Neumorphism
 
-```html
-<a href="https://priya1114.github.io/Neumorphic/" target="_blank">Examples of Neumorphism/Neomorphism</a>
-```
+[Examples of Neumorphism/Neomorphism](https://priya1114.github.io/Neumorphic/)
 
 Blend of Minimalism and Skeuomorphism.
 
