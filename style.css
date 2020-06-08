@@ -1,0 +1,39 @@
+/* https://css-tricks.com/neumorphism-and-css/ */
+
+.main-div {
+  background-color: #edecec;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.neu-card {
+  margin: 36vh auto;
+  padding-top: 20px;
+  height: 152px;
+  width: 250px;
+
+  /* neomorphic css properties */
+  background-color: #edecec;
+  border-radius: 30px;
+  box-shadow:
+    12px 12px 14px #cccccc,
+    -10px -10px 14px #fefefe;
+
+  /* border: 1px solid #fefefe; */
+  text-align: center;
+}
+
+.neu-card:hover {
+  box-shadow:
+    inset 8px 8px 10px #fefefe,
+    inset -6px -6px 8px #cccccc;
+}
+
+.concave {
+  background: linear-gradient(135deg, #cccccc, #fefefe);
+}
+
+.convex {
+  background: linear-gradient(-45deg, #cccccc, #fefefe);
+}
